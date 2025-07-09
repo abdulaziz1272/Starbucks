@@ -1,0 +1,386 @@
+@font-face{
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-Regular.ttf)
+    format(truetype);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: Montserrat;
+    background: #121517;
+    background-image: url(./images/body-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* header */
+header{
+    display: flex;
+    gap: 94px;
+    align-items: center;
+    padding: 48px 130px;
+}
+.site-logo{
+    font-size: 37.6px;
+    font-weight: 1000;
+    background: linear-gradient(-77deg,#237249, #35C66B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-lists{
+    display: flex;
+    gap: 93px;
+}
+.nav-lists a{
+    font-size: 19px;
+    color: #D9D9D9;
+}
+/* header */
+
+/* main */
+/* hero */
+.hero{
+    padding: 15px 130px;
+}
+.hero-top{
+    display: flex;
+    gap: 55px;
+}
+.hero-top-left{
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    max-width: 574px;
+}
+.hero-top-left h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+}
+.hero-top-left h1 span{
+    background: linear-gradient(-77deg,#237249, #35C66B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-top-left p{
+    font-size: 20px;
+    color: #D9D9D9;
+}
+.hero-top-left_btns{
+    display: flex;
+    gap: 16px;
+}
+.first-btn{
+    padding: 20px 78px;
+    font-size: 24px;
+    color: white;
+    background: linear-gradient(-30deg, #237249, #35C66B);
+    border: none;
+    outline: none;
+    border-radius: 82px;
+}
+.second-btn{
+    padding: 19px 53px;
+    color: #D9D9D9;
+    font-size: 24px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: #0B0C0D;
+    border-radius: 82px;
+}
+.second-btn-border{
+    padding: 1px;
+    width:  164.5px;
+    height: 68px;
+    border-radius: 82px;
+    background: linear-gradient(135deg, #D9D9D9, #121517);
+}
+.hero-stats{
+    display: flex;
+    gap: 46px;
+}
+.stat-list{
+    display: flex;
+    flex-direction: column;
+}
+.stat-list h2{
+    font-size: 62px;
+    color: white;
+}
+.stat-list h2 span{
+    color: #35C66B;
+}
+.stat-list p{
+    color: #D9D9D9;
+    font-size: 20px;
+}
+
+.hero-top-right{
+    position: relative;
+    top: -65px;
+    left: 110px;
+}
+
+.hero-bottom{
+    display: flex;
+    justify-content: center;
+    padding: 50px 130px 100px 130px;
+    position: relative;
+}
+.hero-bottom-container{
+    display: flex;
+    justify-content: space-around;
+    width: 1029px;
+    height: 372px;
+    background: #dfdfdf;
+    border-radius: 46px;
+    position: relative;
+}
+.hero-bottom-sign{
+    position: absolute;
+    left: 45px;
+    top: -40px;
+    z-index: 10;
+}
+.list1{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.list-p1{
+    margin-top: 52px;
+}
+.list2{
+    margin-top: 17px;
+}
+.bottom-list h3{
+    font-size: 36px;
+    text-align: center;
+}
+.bottom-list p{
+    font-size: 20px;
+    text-align: center;
+}
+/* hero */
+
+/* make */
+.make{
+    padding: 0 126px 60px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.make-right{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 457px;
+}
+.make-right h2{
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+}
+.make-right h2 span{
+    color: #35C66B;
+}
+.make-right p{
+    font-size: 20px;
+    color: #D9D9D9;
+}
+/* make */
+
+/* products */
+.products{
+    padding: 0 0 80px 124px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.products-top{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.products-top h2{
+    font-size: 80px;
+    color: white;
+    font-weight: 900;
+    max-width: 400px;
+    line-height: 100%;
+}
+.products-top h2 span{
+    color: #35C66B;
+}
+.products-top p{
+    max-width: 450px;
+    color: #D9D9D9;
+    font-size: 20px;
+    line-height: 163%;
+}
+.products-bottom{
+    position: relative;
+}
+.products-bottom img{
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.product4{
+    position: absolute;
+    top: 26px;
+    left: -125px;
+}
+/* products */
+
+/* events */
+.events{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 130px 80px 130px;
+}
+.events-top{
+    display: flex;
+    gap: 80px;
+    padding-left: 355px;
+}
+.events-top p{
+    font-size: 20px;
+    color: #D9D9D9;
+    max-width: 469px;
+    margin-top: 17px;
+    line-height: 163%;
+}
+.events-top h2{
+    font-size: 80px;
+    max-width: 360px;
+    color: white;
+    line-height: 109%;
+}
+.events-top h2 span{
+    color: #35C66B;
+}
+.events-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.events-bottom div{
+    display: flex;
+    gap: 24px;
+}
+.events-bottom div img{
+    border-radius: 30px;
+}
+/* events */
+
+/* contact */
+.contact{
+    padding: 60px 130px 60px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 400px;
+}
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.contact-text h2{
+    font-size: 80px;
+    color: white;
+    line-height: 109%;
+    font-family: 1000;
+
+}
+.contact-text h2 span{
+    color: #35C66B;
+}
+.contact-text p{
+    font-size: 20px;
+    color: #D9D9D9;
+    line-height: 163%;
+}
+.contact-link{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.contact-link div{
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+.contact-link div a{
+    color: white;
+    font-size: 32px;
+}
+.contact-right{
+    position: relative;
+}
+.contact-sign{
+    position: absolute;
+    top: -40px;
+    left: -25px;
+}
+/* contact */
+/* main */
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 38px 121px 45px 121px;
+    gap: 80px;
+    background: #0B0C0D;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top h2{
+    font-size: 37px;
+    color: #35C66B;
+    font-weight: 700;
+    line-height: 109%;
+}
+.footer-top div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer-top div h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+.footer-top div p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #BBB3B3;
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-bottom a{
+    font-size: 26px;
+    color: #35C66B;
+}
+/* footer */
